@@ -3,16 +3,16 @@
 
 class Object {
 public:
-    std::string name;
-    int value;
-    double score;
-
-    Object(const std::string& n, int v, double s)
-        : name(n), value(v), score(s) {}
+    Object() : name(""), quantity(0), price(0.0) {} 
+    Object(const std::string& n, int q, double p) : name(n), quantity(q), price(p) {}
 
     std::string to_string() const {
         std::ostringstream oss;
-        oss << "Object(name: " << name << ", value: " << value << ", score: " << score << ")";
+        oss << "name: " << name << ", quantity: " << quantity << ", price: " << price << ")";
         return oss.str();
     }
+private:
+    std::string name;
+    int quantity;
+    double price;
 };

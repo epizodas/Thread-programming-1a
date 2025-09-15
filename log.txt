@@ -1,0 +1,214 @@
+Loaded 30 objects.
+Object(name: Alice, id: 1, value: 10.5)
+Queue is empty
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+
+Queue:  
+1. Object(name: Alice, id: 1, value: 10.5)
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Alice, id: 1, value: 10.5)
+Queue:  
+2. Object(name: Bob, id: 2, value: 20.1)
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Bob, id: 2, value: 20.1)
+Queue:  
+3. Object(name: Charlie, id: 3, value: 15.7)
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Charlie, id: 3, value: 15.7)
+Queue:  
+4. Object(name: Diana, id: 4, value: 18.2)
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Diana, id: 4, value: 18.2)
+Queue:  
+5. Object(name: Eve, id: 5, value: 22.3)
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Eve, id: 5, value: 22.3)
+Queue:  
+6. Object(name: Frank, id: 6, value: 12.9)
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Frank, id: 6, value: 12.9)
+Queue:  
+7. Object(name: Grace, id: 7, value: 17.4)
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Grace, id: 7, value: 17.4)
+Queue:  
+8. Object(name: Heidi, id: 8, value: 19.8)
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Heidi, id: 8, value: 19.8)
+Queue:  
+9. Object(name: Ivan, id: 9, value: 14.6)
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Ivan, id: 9, value: 14.6)
+Queue:  
+10. Object(name: Judy, id: 10, value: 21)
+
+removed ->Object(name: Judy, id: 10, value: 21)
+Queue is empty
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+5. Object(name: Yvonne, id: 25, value: 21.9)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+5. Object(name: Yvonne, id: 25, value: 21.9)
+6. Object(name: Zack, id: 26, value: 16.8)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+5. Object(name: Yvonne, id: 25, value: 21.9)
+6. Object(name: Zack, id: 26, value: 16.8)
+7. Object(name: Ann, id: 27, value: 13.9)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+5. Object(name: Yvonne, id: 25, value: 21.9)
+6. Object(name: Zack, id: 26, value: 16.8)
+7. Object(name: Ann, id: 27, value: 13.9)
+8. Object(name: Ben, id: 28, value: 24.1)
+
+Queue:  
+1. Object(name: Uma, id: 21, value: 19.3)
+2. Object(name: Victor, id: 22, value: 17.1)
+3. Object(name: Wendy, id: 23, value: 23.5)
+4. Object(name: Xavier, id: 24, value: 14.2)
+5. Object(name: Yvonne, id: 25, value: 21.9)
+6. Object(name: Zack, id: 26, value: 16.8)
+7. Object(name: Ann, id: 27, value: 13.9)
+8. Object(name: Ben, id: 28, value: 24.1)
+9. Object(name: Cathy, id: 29, value: 18.4)
