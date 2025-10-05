@@ -7,6 +7,9 @@
 using namespace std;
 using json = nlohmann::json;
 
+
+void readData();
+
 int main(){
     std::ifstream file("data/data1.json");
     json data = json::parse(file);
