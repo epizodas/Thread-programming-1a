@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------
+| Item name                     |  Quantity |     Price |  Stock value |
+------------------------------------------------------------------------
+| External SSD 1TB (1)          |        10 |        90 |          900 |
+| Work Laptop (2)               |        10 |        80 |          800 |
+| Gaming Laptop (1)             |        10 |        80 |          800 |
+| Graphics Card RTX 4070 (1)    |         5 |       150 |          750 |
+| Bluetooth Headphones (1)      |        25 |        30 |          750 |
+| Office Monitor (1)            |        15 |        50 |          750 |
+| VR Headset (1)                |         8 |        90 |          720 |
+| Power Supply 850W (1)         |        10 |        70 |          700 |
+| Drawing Tablet (1)            |        20 |        35 |          700 |
+| External HDD 1TB (2)          |         8 |        80 |          640 |
+| Compact Keyboard (2)          |        25 |        25 |          625 |
+| Studio Microphone (1)         |        25 |        25 |          625 |
+| Network Switch 8-Port (1)     |        25 |        25 |          625 |
+| CPU Cooler (1)                |        25 |        25 |          625 |
+| 4K Webcam (1)                 |        25 |        25 |          625 |
+| Mechanical Keyboard (1)       |        25 |        25 |          625 |
+| Wireless Earbuds (2)          |        20 |        30 |          600 |
+| Silent Mouse (2)              |        30 |        20 |          600 |
+| Portable Power Bank (1)       |        30 |        20 |          600 |
+| Smartwatch (1)                |        15 |        40 |          600 |
+| Docking Station (1)           |        20 |        30 |          600 |
+| USB Flash 128GB (1)           |        40 |        15 |          600 |
+| Mouse Pad XL (1)              |        50 |        12 |          600 |
+| Portable Speaker (1)          |        40 |        15 |          600 |
+| Color Printer (1)             |        10 |        60 |          600 |
+| WiFi 6 Router (1)             |        15 |        40 |          600 |
+| RAM DDR5 32GB (1)             |        20 |        30 |          600 |
+| Gaming Motherboard (1)        |        10 |        60 |          600 |
+| ATX Case (1)                  |        30 |        20 |          600 |
+| USB-C Dock (1)                |        40 |        15 |          600 |
+| Wireless Mouse (1)            |        30 |        20 |          600 |
+| Bluetooth Adapter (1)         |        70 |         8 |          560 |
+| HDMI Cable 2m (1)             |        70 |         8 |          560 |
+| Motherboard B550 (2)          |        10 |        55 |          550 |
+| Budget Monitor (2)            |        12 |        45 |          540 |
+| PC Cooling Fan (1)            |        45 |        12 |          540 |
+| Smartphone Stand (1)          |        60 |         9 |          540 |
+------------------------------------------------------------------------

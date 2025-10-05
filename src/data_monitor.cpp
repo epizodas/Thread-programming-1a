@@ -1,50 +1,55 @@
-#include <iostream>
-#include "object.cpp"
+#include "object.h"
+#include <mutex>
+#include <condition_variable>
 using namespace std;
 
 #define MAX_SIZE 10
 class DataMonitor {
-public:
+private:
     int front;
     int rear;
     int count;
     Object arr[MAX_SIZE];
+
+    bool finished;
+    mutex mtx;
+    condition_variable not_full;
+    condition_variable not_empty;
+public:
     DataMonitor() : front(0), rear(0), count(0) {}
 
-    bool isEmpty() { return count == 0; }
-    bool isFull() { return count == MAX_SIZE; }
-
-    void addItem(const Object& val) {
-        if (isFull()) {
-            cout << "Queue is full" << endl;
-            return;
-        }
+    void push(const Object& val) {
+        unique_lock<mutex> lock(mtx);
+        not_full.wait(lock, [this]{return count < MAX_SIZE;});
+       
         arr[rear] = val;
         rear = (rear + 1) % MAX_SIZE;
         count++;
+
+        not_empty.notify_one();
     }
 
-    Object removeItem() {
-        if (isEmpty()) {
-            cout << "Queue is empty" << endl;
-            return Object("", 0, 0.0);
+    bool pop(Object &result) {
+        unique_lock<mutex> lock(mtx);
+        not_empty.wait(lock,[this]{return count > 0 || finished;});
+        
+        if (count == 0 && finished){
+            return false;
         }
-        Object ans = arr[front];
+
+        result = arr[front];
         front = (front + 1) % MAX_SIZE;
         count--;
-        return ans;
+
+        lock.unlock();
+        not_full.notify_one();
+        return true;
     }
 
-    void display() {
-        if (isEmpty()) {
-            cout << "Queue is empty" << endl;
-            return;
-        }
-        cout << "Queue:  " << endl;
-        for (int i = 0; i < count; i++) {
-            int idx = (front + i) % MAX_SIZE;
-            cout << (i + 1) << ". " << arr[idx].to_string() << endl;
-        }
-        cout << endl;
+    void setFinished() {
+        unique_lock<mutex> lock(mtx);
+        finished = true;
+        lock.unlock();
+        not_empty.notify_all();
     }
 };
