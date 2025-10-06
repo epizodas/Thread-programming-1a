@@ -27,9 +27,9 @@
 | Portable Speaker (1)          |        40 |        15 |          600 |
 | Color Printer (1)             |        10 |        60 |          600 |
 | WiFi 6 Router (1)             |        15 |        40 |          600 |
-| RAM DDR5 32GB (1)             |        20 |        30 |          600 |
 | Gaming Motherboard (1)        |        10 |        60 |          600 |
 | ATX Case (1)                  |        30 |        20 |          600 |
+| RAM DDR5 32GB (1)             |        20 |        30 |          600 |
 | USB-C Dock (1)                |        40 |        15 |          600 |
 | Wireless Mouse (1)            |        30 |        20 |          600 |
 | Bluetooth Adapter (1)         |        70 |         8 |          560 |
