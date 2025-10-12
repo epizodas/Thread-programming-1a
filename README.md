@@ -1,1 +1,1 @@
-This program's compilation uses makefile.
+Compiling instructions are defined inside of Makefile.
